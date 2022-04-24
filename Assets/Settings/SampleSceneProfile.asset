@@ -40,13 +40,13 @@ MonoBehaviour:
   active: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 1.13
+    m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 2.3
+    m_Value: 2
   scatter:
     m_OverrideState: 0
-    m_Value: 0.028
+    m_Value: 0.63
   clamp:
     m_OverrideState: 0
     m_Value: 65472
@@ -141,11 +141,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   lift:
-    m_OverrideState: 1
-    m_Value: {x: 1, y: 0.99077296, z: 0.56667566, w: 0.022026464}
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 0.9983967, z: 0.8266336, w: 0.022026453}
   gamma:
-    m_OverrideState: 1
-    m_Value: {x: 0.993318, y: 1, z: 0.98504794, w: -0.05}
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 0.98100865, z: 0.91438645, w: -0.05}
   gain:
-    m_OverrideState: 1
-    m_Value: {x: 0.9692304, y: 1, z: 0.9210319, w: 0.26905286}
+    m_OverrideState: 0
+    m_Value: {x: 0.9954709, y: 1, z: 0.7419518, w: 0.26905286}
