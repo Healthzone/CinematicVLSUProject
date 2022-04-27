@@ -7,58 +7,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -218112631615788570, guid: 456f90a025f187e4398c50e4d537e0b8,
-        type: 3}
-      propertyPath: m_PlayableAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: e33774d7ce2bab6469afe81ab426c8dc,
-        type: 2}
-    - target: {fileID: -218112631615788570, guid: 456f90a025f187e4398c50e4d537e0b8,
-        type: 3}
-      propertyPath: m_SceneBindings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -218112631615788570, guid: 456f90a025f187e4398c50e4d537e0b8,
-        type: 3}
-      propertyPath: m_SceneBindings.Array.data[0].key
-      value: 
-      objectReference: {fileID: -6005979260756373482, guid: e33774d7ce2bab6469afe81ab426c8dc,
-        type: 2}
-    - target: {fileID: 1813579570119934227, guid: 456f90a025f187e4398c50e4d537e0b8,
-        type: 3}
-      propertyPath: m_ClearFlags
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1813579570119934227, guid: 456f90a025f187e4398c50e4d537e0b8,
-        type: 3}
-      propertyPath: m_BackGroundColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1813579570119934227, guid: 456f90a025f187e4398c50e4d537e0b8,
-        type: 3}
-      propertyPath: m_BackGroundColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1813579570119934227, guid: 456f90a025f187e4398c50e4d537e0b8,
-        type: 3}
-      propertyPath: m_BackGroundColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1813579571042334755, guid: 456f90a025f187e4398c50e4d537e0b8,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.001
-      objectReference: {fileID: 0}
-    - target: {fileID: 1813579571042334755, guid: 456f90a025f187e4398c50e4d537e0b8,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.088
-      objectReference: {fileID: 0}
-    - target: {fileID: 1813579571042334755, guid: 456f90a025f187e4398c50e4d537e0b8,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 4.354
-      objectReference: {fileID: 0}
     - target: {fileID: 3573833884256217122, guid: 456f90a025f187e4398c50e4d537e0b8,
         type: 3}
       propertyPath: m_Name
