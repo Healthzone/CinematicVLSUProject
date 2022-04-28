@@ -227,7 +227,12 @@ PrefabInstance:
     - target: {fileID: 7794236979055574760, guid: 6e3fd55e506b99b41a88cc34fe90a92a,
         type: 3}
       propertyPath: delayBetweenLines
-      value: 0.3
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794236979055574760, guid: 6e3fd55e506b99b41a88cc34fe90a92a,
+        type: 3}
+      propertyPath: delayTimeCharacter
+      value: 0.035
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2836666866835378652, guid: 6e3fd55e506b99b41a88cc34fe90a92a, type: 3}

@@ -10,9 +10,11 @@ Material:
   m_Name: Engine Field Shielding
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ValidKeywords:
+  - _EMISSION
   - _RECEIVE_SHADOWS_OFF
+  - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
@@ -101,7 +103,7 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 0
     - _Smoothness: 0
-    - _SmoothnessTextureChannel: 0
+    - _SmoothnessTextureChannel: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
@@ -109,9 +111,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0, g: 0.33088428, b: 0.5566038, a: 1}
-    - _Color: {r: 0, g: 0.33088425, b: 0.5566037, a: 1}
-    - _EmissionColor: {r: 0.5648799, g: 1.6453159, b: 2.3481283, a: 1}
+    - _BaseColor: {r: 0.12517802, g: 0.2770852, b: 0.9150943, a: 1}
+    - _Color: {r: 0.12517798, g: 0.27708516, b: 0.9150943, a: 1}
+    - _EmissionColor: {r: 0.06410469, g: 0.2991552, b: 1.360444, a: 1}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &7107722547370382222

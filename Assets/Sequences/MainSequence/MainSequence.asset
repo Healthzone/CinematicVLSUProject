@@ -27,6 +27,7 @@ MonoBehaviour:
         - rid: 814570315272421377
         - rid: 814570315272421378
         - rid: 814570315272421379
+        - rid: 814570540461457408
         m_AvailableIndices:
           rid: -2
     - rid: 814570315272421377
@@ -35,9 +36,9 @@ MonoBehaviour:
         m_Name: MainSequence
         m_Fps: 60
         m_Start: 0
-        m_Duration: 26.999999999998998
+        m_Duration: 116.45
         m_Parent: -1
-        m_Children: 0100000002000000
+        m_Children: 010000000200000003000000
         m_Timeline: {fileID: 11400000, guid: a2f3e07f8b429904cb16e74d4b8164e0, type: 2}
         m_ChildrenTrack: {fileID: 3079364998976381597, guid: a2f3e07f8b429904cb16e74d4b8164e0,
           type: 2}
@@ -62,7 +63,7 @@ MonoBehaviour:
       data:
         m_Name: S_02
         m_Fps: -1
-        m_Start: 0
+        m_Start: 15.033333333333333
         m_Duration: 2
         m_Parent: 0
         m_Children: 
@@ -70,4 +71,18 @@ MonoBehaviour:
         m_ChildrenTrack: {fileID: 0}
         m_DefaultChildrenTrackName: Sequences
         m_EditorialClipAsset: {fileID: -5078099796082544065, guid: a2f3e07f8b429904cb16e74d4b8164e0,
+          type: 2}
+    - rid: 814570540461457408
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: S_03
+        m_Fps: -1
+        m_Start: 0
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: bda364b189845fd489d103ad1439ff52, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: -769512477811134102, guid: a2f3e07f8b429904cb16e74d4b8164e0,
           type: 2}
