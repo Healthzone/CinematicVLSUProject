@@ -13,7 +13,8 @@ Material:
   - _EMISSION
   - _RECEIVE_SHADOWS_OFF
   - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _Emission
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -111,9 +112,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.12517802, g: 0.2770852, b: 0.9150943, a: 1}
-    - _Color: {r: 0.12517798, g: 0.27708516, b: 0.9150943, a: 1}
-    - _EmissionColor: {r: 0.06410469, g: 0.2991552, b: 1.360444, a: 1}
+    - _BaseColor: {r: 0.3301887, g: 0.30994126, b: 0.30994126, a: 1}
+    - _Color: {r: 0.33018863, g: 0.30994123, b: 0.30994123, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &7107722547370382222
