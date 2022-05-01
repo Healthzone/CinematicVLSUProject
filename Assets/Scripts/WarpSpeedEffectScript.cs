@@ -29,6 +29,7 @@ public class WarpSpeedEffectScript : MonoBehaviour
         warpSpeedVFX.SetFloat("WarpAmount", 0);
 
         warpSpeedMeshRenderer.sharedMaterial.SetFloat("_Active", 0);
+        warpSpeedMeshRenderer.sharedMaterial.SetFloat("_Alpha", 0);
     }
 
     private void Start()
@@ -38,6 +39,7 @@ public class WarpSpeedEffectScript : MonoBehaviour
         warpSpeedVFX.SetFloat("WarpAmount", 0);
 
         warpSpeedMeshRenderer.sharedMaterial.SetFloat("_Active", 0);
+        warpSpeedMeshRenderer.sharedMaterial.SetFloat("_Alpha", 0);
     }
 
     public void StopWarpVFX()
@@ -100,6 +102,7 @@ public class WarpSpeedEffectScript : MonoBehaviour
             {
                 amount += rate;
                 warpSpeedMeshRenderer.sharedMaterial.SetFloat("_Active", amount);
+                warpSpeedMeshRenderer.sharedMaterial.SetFloat("_Alpha", amount*3);
                 yield return new WaitForSeconds(0.1f);
             }
         }
@@ -110,12 +113,14 @@ public class WarpSpeedEffectScript : MonoBehaviour
             {
                 amount -= rate;
                 warpSpeedMeshRenderer.sharedMaterial.SetFloat("_Active", amount);
+                warpSpeedMeshRenderer.sharedMaterial.SetFloat("_Alpha", amount * 3);
                 yield return new WaitForSeconds(0.1f);
 
                 if (amount <= 0 + rate)
                 {
                     amount = 0;
                     warpSpeedMeshRenderer.sharedMaterial.SetFloat("_Active", amount);
+                    warpSpeedMeshRenderer.sharedMaterial.SetFloat("_Alpha", amount * 3);
                 }
             }
         }

@@ -1,0 +1,305 @@
+fileFormatVersion: 2
+guid: 0885021efdbb86f499132d43c5501960
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 19_ring_modules
+    second: {fileID: 2100000, guid: 88c97c2f9c0a9904eafd70c28ca5088d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main_thruster_module
+    second: {fileID: 2100000, guid: 6f77222e6df95f743b4869ba1b314bfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cargo_bay
+    second: {fileID: 2100000, guid: 193a2b1f908bae748857874cdd45cda2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ftl_main_module
+    second: {fileID: 2100000, guid: d5a0776fa1a565246acb0a35d69ab83b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: habitat_ring.001
+    second: {fileID: 2100000, guid: 2eedce3d61ebd1d44a3be3752fe0ccda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: module_for_cargo
+    second: {fileID: 2100000, guid: f777f787c58ec2f469c9e7c153373e57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: module_for_reactor
+    second: {fileID: 2100000, guid: d6950c4c860f9bd4c800d701cbeaf2a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: reactor_armor
+    second: {fileID: 2100000, guid: 1624f49b235efbf43bfd3c29106a1737, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ring_structure
+    second: {fileID: 2100000, guid: 3c5f062b0e7f3c541897b81ddb6335ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thrusters_main
+    second: {fileID: 2100000, guid: 049f76d8cbbcf4140beaa83df7c7d73f, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 19_ring_modules_baseColor
+    second: {fileID: 2800000, guid: ac6bc85e38c592a409b4a21118642a01, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 19_ring_modules_emissive
+    second: {fileID: 2800000, guid: beb4a66069a14f8499beab9fd293846a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 19_ring_modules_normal
+    second: {fileID: 2800000, guid: 42877adc08b7c4445a10fddae2bdb757, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Main_thruster_module_baseColor
+    second: {fileID: 2800000, guid: 695a87ca0da9b75468ab0ea62adedf3e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Main_thruster_module_emissive
+    second: {fileID: 2800000, guid: ceaf65d0074619a4ba2d07e2e3b6ee66, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Main_thruster_module_normal
+    second: {fileID: 2800000, guid: 097e28f6cd712f64e85b34afe851030a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cargo_bay_baseColor
+    second: {fileID: 2800000, guid: fd3af9f07beb8c946acdfff6a6cb8c70, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cargo_bay_emissive
+    second: {fileID: 2800000, guid: cf1dd719d0f32c64f9d65b04025f5305, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cargo_bay_normal
+    second: {fileID: 2800000, guid: 4e7c7db11c3f17349b7c3fead8c680b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ftl_main_module_baseColor
+    second: {fileID: 2800000, guid: 3be6f8a25c45c6544a7bbb953556947b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ftl_main_module_emissive
+    second: {fileID: 2800000, guid: 10cacdd92d4b14a4aab3965d7ae21edc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ftl_main_module_normal
+    second: {fileID: 2800000, guid: 0890661ae1cb82e46886712add76dfcc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: habitat_ring_baseColor
+    second: {fileID: 2800000, guid: 6496108263c141e4ca253790d5a82eaf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: habitat_ring_emissive
+    second: {fileID: 2800000, guid: eadda53f98f4c9a448ed987ec51d01d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: habitat_ring_normal
+    second: {fileID: 2800000, guid: 1799dc8ca89fe7e49931e5a747472afb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: module_for_cargo_baseColor
+    second: {fileID: 2800000, guid: a16aadad313df5b41b7fd26a20af2fdf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: module_for_cargo_emissive
+    second: {fileID: 2800000, guid: 9243ff4f0d559cc44878be860b15428a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: module_for_cargo_normal
+    second: {fileID: 2800000, guid: 17084b3fe6b6cae449655cea279ee495, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: module_for_reactor_baseColor
+    second: {fileID: 2800000, guid: e81608df416bc844d8268a6175b0480b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: module_for_reactor_emissive
+    second: {fileID: 2800000, guid: 3df77639c94f40248ab5c1da2ec8a994, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: module_for_reactor_normal
+    second: {fileID: 2800000, guid: a7ab5f32567f6414ba984c8fb5a2e899, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: reactor_armor_baseColor
+    second: {fileID: 2800000, guid: 99f08832b0121d0479eb5070434a0a28, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: reactor_armor_emissive
+    second: {fileID: 2800000, guid: a0d26347f0754f4438a411a1dd2e3921, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: reactor_armor_normal
+    second: {fileID: 2800000, guid: bb9d8334ebfd4074a91447606354cfd4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ring_structure_baseColor
+    second: {fileID: 2800000, guid: d189a695790e57c4b88d3a985d373563, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ring_structure_emissive
+    second: {fileID: 2800000, guid: 2fe0ed7a35bec9549857892406c3847d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ring_structure_normal
+    second: {fileID: 2800000, guid: 79905b77039e5a341a8c5d660e063410, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: thrusters_main_baseColor
+    second: {fileID: 2800000, guid: a3fa9942b38604848843dd48fe6e2e04, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: thrusters_main_emissive
+    second: {fileID: 2800000, guid: bba2f4dd5da386d40b1680af352a1a73, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: thrusters_main_normal
+    second: {fileID: 2800000, guid: 1911b3241b94f3440b2f6b0e97f2e03c, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

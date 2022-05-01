@@ -133,6 +133,7 @@ MonoBehaviour:
   warpSpeedVFX: {fileID: 8187409200470845273}
   warpSpeedMeshRenderer: {fileID: 7376351844549037021}
   rate: 0.02
+  delayShaderStart: 0
 --- !u!1001 &8187409200893531993
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -148,17 +149,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b238adaab954ebb4dbfd6742d574019d,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.9609821
+      value: 2.6369326
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b238adaab954ebb4dbfd6742d574019d,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.0873704
+      value: 4.151587
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b238adaab954ebb4dbfd6742d574019d,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.9609824
+      value: 2.636933
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b238adaab954ebb4dbfd6742d574019d,
         type: 3}
