@@ -63,7 +63,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 4050676545007522281}
-    m_Duration: 400.98151905006
+    m_Duration: 427.00428201609196
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7003472721733484388}
     m_EaseInDuration: 0
@@ -159,6 +159,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   director:
     exposedName: f66f431f4d07cfa419cee5ab4a6d3001
+    defaultValue: {fileID: 0}
+--- !u!114 &-780090071173378566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf63b8abc5c37045b63c115317279bc, type: 3}
+  m_Name: EditorialPlayableAsset
+  m_EditorClassIdentifier: 
+  director:
+    exposedName: d6ea349ecc4150c43a5d3b62689396d6
     defaultValue: {fileID: 0}
 --- !u!114 &-769512477811134102
 MonoBehaviour:
@@ -453,7 +468,7 @@ MonoBehaviour:
     m_Start: 305.65
     m_ClipIn: 0
     m_Asset: {fileID: -5671228471334609761}
-    m_Duration: 95.33151905006002
+    m_Duration: 42.073835887075006
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3079364998976381597}
     m_EaseInDuration: 0
@@ -518,6 +533,144 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: S_04
+  - m_Version: 1
+    m_Start: 347.723835887075
+    m_ClipIn: 0
+    m_Asset: {fileID: 7162786002503094445}
+    m_Duration: 53.4428307795917
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 3079364998976381597}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: S_05
+  - m_Version: 1
+    m_Start: 401.1666666666667
+    m_ClipIn: 0
+    m_Asset: {fileID: -780090071173378566}
+    m_Duration: 32.95428201609195
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 3079364998976381597}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: S_06
   m_Markers:
     m_Objects: []
 --- !u!114 &4050676545007522281
@@ -534,4 +687,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   director:
     exposedName: 3c07247b2bab05e419188d882358af57
+    defaultValue: {fileID: 0}
+--- !u!114 &7162786002503094445
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf63b8abc5c37045b63c115317279bc, type: 3}
+  m_Name: EditorialPlayableAsset(Clone)
+  m_EditorClassIdentifier: 
+  director:
+    exposedName: 3f77a0a549d2a3d41ac183f1a7d4232b
     defaultValue: {fileID: 0}
