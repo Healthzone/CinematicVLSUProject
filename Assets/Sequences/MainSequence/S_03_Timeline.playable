@@ -15,98 +15,6 @@ MonoBehaviour:
   director:
     exposedName: 7d2de3dac73c646409959ed77152868c
     defaultValue: {fileID: 0}
---- !u!114 &-8784843682065058170
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b200515c8e4330408b58689631dbd4b, type: 3}
-  m_Name: Planet
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_AnimClip: {fileID: 0}
-  m_Locked: 0
-  m_Muted: 1
-  m_CustomPlayableFullTypename: 
-  m_Curves: {fileID: 0}
-  m_Parent: {fileID: 8006502794048832307}
-  m_Children: []
-  m_Clips:
-  - m_Version: 1
-    m_Start: 0
-    m_ClipIn: 0
-    m_Asset: {fileID: -6948376471831470794}
-    m_Duration: 234.36171800177542
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -8784843682065058170}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Planet
-  m_Markers:
-    m_Objects: []
 --- !u!114 &-7902628895922973638
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -408,21 +316,6 @@ MonoBehaviour:
     m_DisplayName: WarpSpeedVFX
   m_Markers:
     m_Objects: []
---- !u!114 &-6948376471831470794
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75c9636883e9dd643ae76cdf48ca73d5, type: 3}
-  m_Name: SequenceAssetPlayableAsset
-  m_EditorClassIdentifier: 
-  director:
-    exposedName: 52fe541a465427e428bf87d874e04c03
-    defaultValue: {fileID: 0}
 --- !u!114 &-6766681745454632591
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1213,76 +1106,7 @@ MonoBehaviour:
     m_Start: 108.81666666666666
     m_ClipIn: 0
     m_Asset: {fileID: -960297325294973781}
-    m_Duration: 15.066666666666
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 6968328336479682345}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: SpaceInterior
-  - m_Version: 1
-    m_Start: 171.71171800177544
-    m_ClipIn: 0
-    m_Asset: {fileID: 8728065719430061659}
-    m_Duration: 62.64999999999998
+    m_Duration: 125.54505133510878
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6968328336479682345}
     m_EaseInDuration: 0
@@ -1394,7 +1218,6 @@ MonoBehaviour:
   m_Parent: {fileID: 11400000}
   m_Children:
   - {fileID: -6572445648990254235}
-  - {fileID: -8784843682065058170}
   m_Clips: []
   m_Markers:
     m_Objects: []
@@ -1504,19 +1327,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   director:
     exposedName: 168e9f524e44c2c439444e32f04eda72
-    defaultValue: {fileID: 0}
---- !u!114 &8728065719430061659
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75c9636883e9dd643ae76cdf48ca73d5, type: 3}
-  m_Name: SequenceAssetPlayableAsset(Clone)
-  m_EditorClassIdentifier: 
-  director:
-    exposedName: 6994d082e02bca54294d93ea387c7fd3
     defaultValue: {fileID: 0}
