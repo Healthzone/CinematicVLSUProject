@@ -10,12 +10,19 @@ public class StartShipSystem : MonoBehaviour
 
     [SerializeField]
     private float rate = 0.02f;
+    [SerializeField]
+    private float rateOff = 0.5f;
 
     [SerializeField]
     private float intensityLevel = 2f;
+    [SerializeField]
+    private float decreasingIntensityLevel = 2f;
 
     [SerializeField]
     private Color color;
+
+    [SerializeField]
+    private Color colorOff;
     void Start()
     {
         shipMeshRenderer.EnableKeyword("_Emission");
@@ -37,4 +44,10 @@ public class StartShipSystem : MonoBehaviour
             yield return new WaitForSeconds(0.15f);
         }
     }
+
+    public void DisableEmissionColor()
+    {
+        shipMeshRenderer.SetVector("_EmissionColor", Color.black);
+    }
+
 }

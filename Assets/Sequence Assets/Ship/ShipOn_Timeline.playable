@@ -4415,10 +4415,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 169.32838466844197
+    m_Start: 170.12838466844212
     m_ClipIn: 0
     m_Asset: {fileID: -6039569541478768849}
-    m_Duration: 67.55342114377532
+    m_Duration: 66.75342114377517
     m_TimeScale: 1
     m_ParentTrack: {fileID: 93339447459061697}
     m_EaseInDuration: 0
